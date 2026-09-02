@@ -1,0 +1,28 @@
+:root {
+  --champagne: #f7e7ce;
+  --champagne-deep: #ead3a0;
+  --ink: #1c1a17;
+  --ink-soft: #4a4640;
+  --line: #e3d2ac;
+  --green: #28603f;
+  --red-deep: #a4000a;
+  --red: #c02d22;
+  --red-hot: #f2161a;
+  --poster: #f4efe6;
+  --kraft: color-mix(in srgb, var(--champagne-deep) 78%, var(--ink) 22%);
+  --kraft-deep: color-mix(in srgb, var(--champagne-deep) 58%, var(--ink) 42%);
+
+  /* meio do radial sol/brasa (ato 03) — champagne + vermelho */
+  --ember: color-mix(in srgb, var(--red) 58%, var(--champagne-deep));
+
+  --bg: var(--champagne);
+  --panel: var(--champagne-deep);
+
+  --script: var(--font-script), "Segoe Script", cursive;
+  --display: var(--font-display), "Arial Black", Impact, sans-serif;
+  --body: var(--font-body), "Helvetica Neue", Arial, sans-serif;
+  --lede: var(--font-lede), "Helvetica Neue", Arial, sans-serif;
+  --mono: var(--font-mono), "Courier New", ui-monospace, monospace;
+
+  --hud-h: 4.5rem;
+}
